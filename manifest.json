@@ -1,0 +1,40 @@
+{
+    "name": "Press it.",
+    "short_name": "Press It.",
+    "description": "Press it.",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "index.html",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+
+    "icons": [
+        {
+          "src": "Addatives/manifest-icon-192.maskable.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "Addatives/manifest-icon-192.maskable.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "maskable"
+        },
+        {
+          "src": "Addatives/manifest-icon-512.maskable.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          
+          "src": "Addatives/manifest-icon-512.maskable.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "maskable"
+        }
+      ],
+    
+      "service_worker": "service-worker.js"
+}

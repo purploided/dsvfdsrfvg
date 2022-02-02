@@ -1,0 +1,43 @@
+.state-1 {
+    width: 350px;
+    height: 350px;
+    background-image: url(Addatives/button-state-1.webp);
+    position: relative;
+}
+
+.state-2 {
+    width: 350px;
+    height: 350px;
+    background-image: url(Addatives/button-state-2.webp);
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 414px) {
+    .barrier {
+        width: auto;
+        height: 444px;
+        position: absolute;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0.178);
+        background-position: center;
+        border: 1px solid rgba(0, 0, 0, 0);
+        margin: auto;
+        top: 20%;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 415px) {
+    .barrier {
+        width: 350px;
+        height: 444px;
+        position: relative;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0.445);
+        background-position: center;
+        border: 1px solid rgba(0, 0, 0, 0);
+        margin: auto;
+        cursor: pointer;
+    }
+}
